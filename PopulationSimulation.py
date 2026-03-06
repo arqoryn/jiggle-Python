@@ -317,7 +317,8 @@ def main():
         print("Year: ", year)
         tot = census(population)
         print("Total Population: ", tot)
-        inp = input("Press Enter to forward to next event (10 Years): ")
+        print("_"*30)
+        inp = input("Press Enter to forward to next event (Step) (10 Years): ")
 
 
         if inp == "":
